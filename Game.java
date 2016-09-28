@@ -20,6 +20,8 @@ public class Game
         lab = new Room("in a computing lab");
         office = new Room("in the computing admin office");
         
+        //Test 123
+        
         outside.setExit("east", theatre);
         outside.setExit("south", lab);
         outside.setExit("west", pub);
